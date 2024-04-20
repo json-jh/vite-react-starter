@@ -16,14 +16,14 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "indent": ["error", 2],
-    "comma-dangle": ["error"],
+    indent: ["error", 2],
+    "comma-dangle": 0,
     "react/jsx-closing-bracket-location": [1, "tag-aligned"],
     "react/jsx-first-prop-new-line": 1,
-    "react/jsx-max-props-per-line": [1, {"when": "multiline", "maximum": 1}],
+    "react/jsx-max-props-per-line": [1, { when: "multiline", maximum: 1 }],
     "react/jsx-props-no-multi-spaces": 1,
     "react/jsx-space-before-closing": 1,
     "react/jsx-closing-tag-location": 1,
-    "react/jsx-newline": [0, { "prevent": true, "allowMultilines": true }]
+    "react/jsx-newline": [0, { prevent: true, allowMultilines: true }],
   },
 };

@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 
 export default function defaultLayout() {
+  console.log("default layout");
   return (
     <>
       <div>defaultLayout</div>
